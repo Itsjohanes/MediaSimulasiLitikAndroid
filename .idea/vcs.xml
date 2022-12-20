@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Basisdata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fragment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Intent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/LoginFormTest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyCoffeeListShop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyCoffeeShop2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MyWaifuList" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Notes" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Notesgw" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NumberPicker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/OpenStreetMap" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/QuizJson" vcs="Git" />
+  </component>
+</project>

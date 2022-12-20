@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WhileLoopActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/whileloop"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="While Loop"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#00FF00"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="While Loop adalah perulangan yang akan berjalan selama kondisi yang ditentukan benar."
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#00FF00"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Angka"
+        android:id="@+id/angka"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:id="@+id/hasilButton"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id = "@+id/hasil"
+        android:textColor="#000000"
+        android:background="#00FF00"
+        android:padding="10dp"
+        />
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ForLoopActivity">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/for_loop"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Loop"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#00FF00"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="For Loop adalah perulangan yang digunakan untuk melakukan perulangan dengan jumlah yang sudah ditentukan. Perulangan ini akan berhenti ketika kondisi yang ditentukan sudah terpenuhi."
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#00FF00"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Angka Batas Bawah"
+        android:id="@+id/angkaBawah"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Angka Batas Atas"
+        android:id="@+id/angkaAtas"
+        android:inputType="number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:id="@+id/hasilButton"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id = "@+id/hasil"
+        android:textColor="#000000"
+        android:background="#00FF00"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>
